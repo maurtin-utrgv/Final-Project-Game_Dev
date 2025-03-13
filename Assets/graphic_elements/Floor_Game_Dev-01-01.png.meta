@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5c5fd43489a404584b8a51ac6acadb22
+guid: fecc3c78bffa84252af000d907e8ac3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1183681620893836794
-    second: Sample_0
+      213: 2325744277147889494
+    second: Floor_Game_Dev-01-01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sample_0
+      name: Floor_Game_Dev-01-01_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 918
-        height: 515
+        width: 4914
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60ad67356d7b29fe0800000000000000
-      internalID: -1183681620893836794
+      spriteID: 65f2cc50914b64020800000000000000
+      internalID: 2325744277147889494
       vertices: []
       indices: 
       edges: []
