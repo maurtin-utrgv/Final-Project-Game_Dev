@@ -13,7 +13,7 @@ public class bomb_spawner : MonoBehaviour
         //will load 10 bombs at the start of the game 
         for(int i = 0; i < 5; i++)
         {
-            spawObject();
+            //spawObject(); take off the comment to spawn bombs/villains 
         }
 
     }
