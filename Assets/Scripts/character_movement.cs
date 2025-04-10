@@ -23,7 +23,8 @@ public class character_movement : MonoBehaviour
     {
        speedX = Input.GetAxisRaw("Horizontal") * speed;
        speedY = Input.GetAxisRaw("Vertical") * speed;
-       rb.linearVelocity = new Vector2(speedX, speedY);
+       rb.linearVelocity = new Vector2(speedX, rb.linearVelocity.y);
+       //rb.linearVelocity = new Vector2(speedX, speedY);
        if(speedX != 0)
        {
             anim.SetBool("isWalking", true);
@@ -37,7 +38,7 @@ public class character_movement : MonoBehaviour
 
     private void Flip()
     {
-        if(isFacingRight && speedX > 0f || !isFacingRight && speedX < 0f)
+        if(isFacingRight && speedX < 0f || !isFacingRight && speedX > 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
