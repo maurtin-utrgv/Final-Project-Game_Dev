@@ -1,4 +1,10 @@
 
+Jannette Carranza
+
+Itzel Aldaco 
+
+Martin Vega 	
+
 
 Game Name: Skyfallen
 

@@ -4,21 +4,20 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ground
-  - bomb_enemy
-  - power_up
+  - Enemy
+  - DeathZone
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ground
+  - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - CamerBoarderLayer
+  - EnemyLayer
+  - BulletLayer
+  - EnvironmentLAyer
+  - Through
   - 
   - 
   - 
@@ -41,8 +40,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 558141937
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2804700665
+    locked: 0
+  - name: CameraBoarderLayer
+    uniqueID: 791966743
+    locked: 0
+  - name: Bullet Layer
+    uniqueID: 2278722661
+    locked: 0
+  - name: Enemy Layer
+    uniqueID: 151990265
+    locked: 0
+  - name: Environment Layer
+    uniqueID: 4041461739
     locked: 0
   m_RenderingLayers:
   - Default
